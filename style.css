@@ -117,10 +117,8 @@ a:hover {
 }
 
 
-
-
 .introtext {
-    margin-left: 55px; 
+    margin-left: 50px; 
     display: flex; 
     align-items: center; 
 }
