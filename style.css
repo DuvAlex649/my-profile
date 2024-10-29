@@ -1,0 +1,126 @@
+/* Colors and fonts */
+body {
+    color: rgb(30, 30, 30);
+    background-color: #F7F9FC;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-size: 17px;
+}
+
+h1 {
+    color: rgb(30, 30, 30);
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin: 10px,0px;
+    
+
+
+
+}
+
+h2 {
+    font-family: "Rubik", sans-serif; 
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+/* Custom design with class */
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+@media (max-width: 760px) { 
+ .container {
+     width: 600px;
+    }
+}
+
+@media (max-width: 500px) {  
+ .container {
+     width: 400px;
+    }
+}
+
+
+
+
+.card-design {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin: 20px 70px ;
+
+
+}
+
+
+.img-circle {
+    border-radius: 50%; 
+    width: 150px; 
+    height: auto; 
+
+}
+
+
+.list-inline li {
+    display: inline;
+}
+
+
+.list-inline li a {
+    font-size: 30px; 
+    margin: 0px 10px; 
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+
+
+.card-white {
+    text-align: center; 
+}
+
+.list-inline {
+    justify-content: center;
+    padding: 0px; 
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+}
+
+
+.card-design2 {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin: 20px 70px;
+    text-align: center; 
+}
+
+.contact-header {
+    font-size: 36px;
+    margin: 20px 0; 
+}
+
+
+
+
+.introtext {
+    margin-left: 55px; 
+    display: flex; 
+    align-items: center; 
+}
